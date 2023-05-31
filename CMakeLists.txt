@@ -33,7 +33,7 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/)
 include(GNUInstallDirs)
 include(CTest)
 
-option(BUILD_MYSQL_CONNECTOR "Build MySQL Connector" ON)
+option(BUILD_MYSQL_CONNECTOR "Build MySQL Connector" OFF)
 option(BUILD_MARIADB_CONNECTOR "Build MariaDB Connector" ON)
 option(BUILD_POSTGRESQL_CONNECTOR "Build PostgreSQL Connector" OFF)
 option(BUILD_SQLITE3_CONNECTOR "Build SQLite3 Connector" OFF)
